@@ -7,7 +7,7 @@
 </head>
 <body>
     <div id="app">
-        <ul>
+        <ul v-if="e_mails.length == 10">
             <li v-for="emails in e_mails">
                 {{ emails }}
             </li>

@@ -7,8 +7,8 @@
 </head>
 <body>
     <div id="app">
-        <ul v-if="e_mails.length == 10">
-            <li v-for="emails in e_mails">
+        <ul>
+            <li v-if="e_mails.length == 10" v-for="emails in e_mails">
                 {{ emails }}
             </li>
         </ul>
